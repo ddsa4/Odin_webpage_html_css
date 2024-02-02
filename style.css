@@ -1,7 +1,8 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow: auto;
+    font-family: cursive;
 }
 
 .header {
@@ -23,7 +24,7 @@ body {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding: 100px 200px;
+    padding: 70px 200px;
     gap: 100px;
 }
 
@@ -69,12 +70,20 @@ a {
     line-height: 200px;
 }
 
-button {
+.button, .button2 {
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 5px 20px;
+    width: 110px;
+    height: 30px;
     border-radius: 7.5px;
     margin-top: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.button2 {
+    border-style: solid;
+    border-color: 2px #f9faf8;
 }
 
 .info {
@@ -82,13 +91,13 @@ button {
     font-size: 36px;
     color: #1f2937;
     font-weight: bold;
-    padding: 50px;
+    padding: 30px;
 }
 
 .bunch_square {
     display: flex;
     /* justify-content: space-evenly; */
-    gap: 100px;
+    gap: 70px;
     justify-content: center;
 }
 
@@ -96,7 +105,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .s {
@@ -112,4 +121,60 @@ button {
 .a {
     width: 150px;
     text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 70px 300px;
+}
+
+.text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.thor {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+
+.bluesquare {
+    width: 900px;
+    height: 120px;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.bluesquare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+   
+}
+
+.b {
+    font-size: 20px;
+    color: #f9faf8;
+    font-weight: bold;  
+}
+
+.p {
+    color: #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    height: 165px;
+    padding-top: 30px;
 }
