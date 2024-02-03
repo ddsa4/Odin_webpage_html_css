@@ -2,14 +2,17 @@ body {
     height: 100vh;
     margin: 0;
     overflow: auto;
-    font-family: cursive;
+    font-family: 'helvetica', sans-serif;
 }
 
-.header {
+.header, .header2 {
     background-color: #1f2937;
     padding: 10px 200px;
     display: flex;
     justify-content: space-between;
+}
+
+.header {
     align-items: center;
 }
 
@@ -17,13 +20,9 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
-    /* padding-top: 15px; */
 }
 
 .header2 {
-    background-color: #1f2937;
-    display: flex;
-    justify-content: space-between;
     padding: 70px 200px;
     gap: 100px;
 }
@@ -31,13 +30,12 @@ body {
 .links_header {
     display: flex;
     gap: 20px;
-    /* padding-top: 20px; */
 }
 
 ul {
     margin: 0;
     padding: 0;
-    list-style-type: none;
+    list-style-type: none; 
 }
 
 a {
@@ -45,19 +43,23 @@ a {
     color: #f9faf8;
 }
 
-.title {
-    font-size: 48px;
-    font-weight: bold;
+.title, .subtext{
     color: #f9faf8;
     display: flex;
     flex-wrap: wrap;
 }
 
+.title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
 .subtext {
     font-size: 18px;
-    color: #f9faf8;
-    display: flex;
-    flex-wrap: wrap;
+}
+
+.imageplace, .button, .button2, .info, .a, .footer {
+    text-align: center;
 }
 
 .imageplace {
@@ -65,7 +67,6 @@ a {
     height: 200px;
     background-color: gray;
     flex-shrink: 0;
-    text-align: center;
     color: #f9faf8;
     line-height: 200px;
 }
@@ -77,7 +78,6 @@ a {
     height: 30px;
     border-radius: 7.5px;
     margin-top: 10px;
-    text-align: center;
     line-height: 30px;
 }
 
@@ -87,7 +87,6 @@ a {
 }
 
 .info {
-    text-align: center;
     font-size: 36px;
     color: #1f2937;
     font-weight: bold;
@@ -96,7 +95,6 @@ a {
 
 .bunch_square {
     display: flex;
-    /* justify-content: space-evenly; */
     gap: 70px;
     justify-content: center;
 }
@@ -120,7 +118,6 @@ a {
 
 .a {
     width: 150px;
-    text-align: center;
 }
 
 .quote {
@@ -158,13 +155,13 @@ a {
     justify-content: center;
     align-items: center;
     gap: 200px;
-   
+
 }
 
 .b {
     font-size: 20px;
     color: #f9faf8;
-    font-weight: bold;  
+    font-weight: bold;
 }
 
 .p {
@@ -174,7 +171,6 @@ a {
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
-    text-align: center;
     height: 165px;
     padding-top: 30px;
 }
