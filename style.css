@@ -62,28 +62,20 @@ a {
     text-align: center;
 }
 
-.imageplace {
+img {
     width: 400px;
     height: 200px;
-    background-color: gray;
     flex-shrink: 0;
-    color: #f9faf8;
-    line-height: 200px;
 }
 
-.button, .button2 {
+button {
     background-color: #3882f6;
     color: #f9faf8;
     width: 110px;
     height: 30px;
     border-radius: 7.5px;
     margin-top: 10px;
-    line-height: 30px;
-}
-
-.button2 {
-    border-style: solid;
-    border-color: 2px #f9faf8;
+    border: none;
 }
 
 .info {
@@ -144,18 +136,19 @@ a {
 }
 
 .bluesquare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
     width: 900px;
     height: 120px;
     background-color: #3882f6;
     border-radius: 5px;
 }
 
-.bluesquare {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 200px;
-
+.bluesquare button {
+    border-style: solid;
+    border-color: 2px #f9faf8;
 }
 
 .b {
